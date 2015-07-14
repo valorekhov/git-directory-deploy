@@ -7,7 +7,7 @@ This is a script for deploying generated files to a git branch, such as when bui
 For an example of use, see [X1011/verge-mobile-bingo](https://github.com/X1011/verge-mobile-bingo).
 
 ## configuration
-Download the script (`wget https://github.com/X1011/git-directory-deploy/raw/master/deploy.ps1`) and supply the following  arguments it as needed to fit your project:
+Download the script (`wget https://github.com/valorekhov/git-directory-deploy/raw/master/deploy.ps1`) and supply the following  arguments it as needed to fit your project:
 
 - **deploy_directory**: root of the tree of files to deploy, default = dist
 - **deploy_branch**: branch to commit files to and push to origin, default = deployment
