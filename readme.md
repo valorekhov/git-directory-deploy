@@ -1,3 +1,7 @@
+This is a PowerShell port of the bash script outlined below. Origin: https://github.com/X1011/git-directory-deploy
+
+--------
+
 This is a script for deploying generated files to a git branch, such as when building a single-page app using [Yeoman](http://yeoman.io) and deploying to [GitHub Pages](http://pages.github.com). Unlike the [git-subtree approach](https://github.com/yeoman/yeoman.io/blob/master/app/learning/deployment.md#git-subtree-command), it does not require the generated files be committed to the source branch. It keeps a linear history on the deploy branch and does not make superfluous commits or deploys when the generated files do not change.
 
 For an example of use, see [X1011/verge-mobile-bingo](https://github.com/X1011/verge-mobile-bingo).
